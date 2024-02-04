@@ -1,0 +1,98 @@
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
+
+const Nav = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const openbar = () => {
+    setOpenMenu(!openMenu);
+  };
+
+  const closebar = () => {
+    setOpenMenu(!openMenu);
+  };
+
+  return (
+    <nav>
+      <ul className="hidden lg:flex items-center gap-14 font-serif font-medium text-sm">
+        <li>
+          <NavLink to="/" className="nav_active">
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/skill" className="nav_active">
+            Skills
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/work" className="nav_active">
+            Work Experience
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact" className="nav_active">
+            Contact Me
+          </NavLink>
+        </li>
+        <NavLink to="contact">
+          <button className="bg-[#a993fe] px-4 py-1.5 border-2 border-[#a993fe] hover:bg-transparent  duration-300 outline-none">
+            Hire Me
+          </button>
+        </NavLink>
+      </ul>
+
+      {/* mobile_open_menu */}
+      <div className="lg:hidden cursor-pointer">
+        {openMenu ? (
+          <AiOutlineClose
+            onClick={closebar}
+            className="text-2xl border-2 border-[#a993fe] px-1"
+          />
+        ) : (
+          <GiHamburgerMenu onClick={openbar} className="text-2xl" />
+        )}
+      </div>
+
+      {/* mobile_nav */}
+      <ul
+        className="lg:hidden fixed left-0 top-0 bg-[#2c294a] w-[75%] sm:w-[50%] h-screen flex flex-col justify-center items-center gap-10 text-base font-serif font-medium duration-300 z-50"
+        style={{ left: openMenu ? 0 : "-100%" }}
+      >
+        <li onClick={openbar}>
+          <NavLink to="/" className="nav_active">
+            Home
+          </NavLink>
+        </li>
+        <li onClick={openbar}>
+          <NavLink to="/skill" className="nav_active">
+            Skills
+          </NavLink>
+        </li>
+        <li onClick={openbar}>
+          <NavLink to="/work" className="nav_active">
+            Work Experience
+          </NavLink>
+        </li>
+        <li onClick={openbar}>
+          <NavLink to="/contact" className="nav_active">
+            Contact Me
+          </NavLink>
+        </li>
+        <NavLink to="contact">
+          <button
+            className="bg-[#a993fe] px-4 py-1.5 border-2 border-[#a993fe] hover:bg-transparent  duration-300 outline-none"
+            onClick={openbar}
+          >
+            Hire Me
+          </button>
+        </NavLink>
+      </ul>
+    </nav>
+  );
+};
+
+export default Nav;
