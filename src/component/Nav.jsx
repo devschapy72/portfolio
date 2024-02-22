@@ -17,10 +17,15 @@ const Nav = () => {
 
   return (
     <nav>
-      <ul className="hidden lg:flex items-center gap-14 font-serif font-medium text-sm">
+      <ul className="hidden lg:flex items-center gap-10 xl:gap-14 font-serif font-medium text-sm">
         <li>
           <NavLink to="/" className="nav_active">
             Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/education" className="nav_active">
+            Education
           </NavLink>
         </li>
         <li>
@@ -31,6 +36,11 @@ const Nav = () => {
         <li>
           <NavLink to="/work" className="nav_active">
             Work Experience
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/project" className="nav_active">
+            My Project
           </NavLink>
         </li>
         <li>
@@ -68,6 +78,11 @@ const Nav = () => {
           </NavLink>
         </li>
         <li onClick={openbar}>
+          <NavLink to="/education" className="nav_active">
+            Education
+          </NavLink>
+        </li>
+        <li onClick={openbar}>
           <NavLink to="/skill" className="nav_active">
             Skills
           </NavLink>
@@ -75,6 +90,11 @@ const Nav = () => {
         <li onClick={openbar}>
           <NavLink to="/work" className="nav_active">
             Work Experience
+          </NavLink>
+        </li>
+        <li onClick={openbar}>
+          <NavLink to="/project" className="nav_active">
+            My Project
           </NavLink>
         </li>
         <li onClick={openbar}>

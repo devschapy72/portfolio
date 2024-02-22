@@ -3,21 +3,77 @@ import { GrReactjs } from "react-icons/gr";
 import { IoLogoHtml5 } from "react-icons/io";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FiInstagram } from "react-icons/fi";
+import { FaTwitter } from "react-icons/fa6";
+
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
     <div className=" bg-gradient-to-r from-[#3b3765] to-[#0c0819] mt-10">
-      <div className="w-11/12 sm:w-7/12 lg:w-9/12 mx-auto h-full grid lg:grid-cols-2 content-center lg:content-none items-center gap-8 lg:gap-6">
+      <div className="w-11/12 sm:w-7/12 lg:w-10/12 mx-auto h-full grid lg:grid-cols-2 content-center lg:content-none items-center gap-8 lg:gap-6">
         <div>
-          <p className="text-sm font-mono text-center lg:text-start">I am a</p>
-          <h1 className="text-2xl sm:text-4xl md:text-5xl mt-1 mb-1 sm:mb-3 font-serif font-medium text-center lg:text-start">
-            Front End Developer
-          </h1>
-          <p className="text-[11px] sm:text-xs font-thin text-center lg:text-start">
-            Front End Developer: Crafting seamless user experiences through
-            code, design, and innovation. Passionate about web development and
-            user interfaces.
+          <p className="text-md font-mono text-center lg:text-start mb-2">
+            Hi, I am
           </p>
+          <h1 className="text-2xl mb-2 sm:text-4xl 2xl:text-5xl font-serif font-medium text-center lg:text-start">
+            MD SUMON AHMED
+          </h1>
+          <span className="text-lg text-[#a993fe] sm:text-xl 2xl:text-3xl font-serif font-medium text-center lg:text-start">
+            <Typewriter
+              options={{
+                strings: ["WEB DEVELOPER", "Front End Developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </span>
+          <p className="text-[11px] sm:text-sm font-thin text-center lg:text-start mt-5">
+            I'm a frontend developer proficient in HTML, CSS, and JavaScript,
+            dedicated to crafting intuitive and visually appealing user
+            interfaces. With a passion for design and a commitment to staying
+            updated on the latest trends, I collaborate with teams to deliver
+            innovative solutions.
+          </p>
+          <ul className="flex gap-4 mt-5 justify-center lg:justify-start">
+            <li className="w-10 h-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex justify-center items-center">
+              <a
+                href="https://www.facebook.com/akeshchoyavalobasha?mibextid=ZbWKwL"
+                className="hover:-translate-y-1 duration-300"
+              >
+                <FaFacebookF />
+              </a>
+            </li>
+            <li className="w-10 h-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex justify-center items-center">
+              <a
+                href="https://www.linkedin.com/in/md-sumon-ahamed-57573b2a1/"
+                className="hover:-translate-y-1 duration-300"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="w-10 h-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex justify-center items-center">
+              <a href="" className="hover:-translate-y-1 duration-300">
+                <FiInstagram />
+              </a>
+            </li>
+            <li className="w-10 h-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex justify-center items-center">
+              <a href="" className="hover:-translate-y-1 duration-300">
+                <FaTwitter />
+              </a>
+            </li>
+          </ul>
+          {/* DOWNLOAD CV BUTTON */}
+          <div className="mt-14 mb-5 text-center lg:text-start">
+            <a
+              href="https://drive.google.com/file/d/133KA2VU0ZHObFiRVQOI1OCOE_IKU_A42/view?usp=sharing"
+              className="border-2 border-[#a993fe] px-12 py-3.5 rounded-full text-sm text-[#a993fe] hover:text-white font-serif hover:bg-[#a993fe] duration-300"
+            >
+              RESUME
+            </a>
+          </div>
         </div>
         <div className="flex flex-col items-center lg:flex-none">
           <div className="flex items-end">
