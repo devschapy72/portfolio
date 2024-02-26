@@ -71,19 +71,19 @@ const Project = () => {
           <div className="relative">
             <figure>
               <img
-                src="https://img.freepik.com/free-vector/shop-with-sign-we-are-open_52683-38687.jpg"
+                src="https://images8.alphacoders.com/463/463381.jpg"
                 alt="projectImage"
                 className="h-[10rem] w-full object-cover"
               />
             </figure>
             <h2 className="absolute top-0 left-0 w-full h-full text-white font-mono text-xl flex justify-center items-center opacity-0 hover:opacity-100 hover:bg-[#000000bd] duration-300">
-              BD Shop
+              Watch
             </h2>
           </div>
-          <p className="text-center my-3 font-serif text-sm">BD Shop</p>
+          <p className="text-center my-3 font-serif text-sm">Watch</p>
           <div className="flex justify-center">
             <a
-              href="https://sumonbdshop.netlify.app"
+              href="https://mywatchecommerce.netlify.app"
               className=" border-2 border-[#a993fe] hover:bg-[#a993fe] duration-300 py-3 px-16 mb-3"
             >
               View Project
