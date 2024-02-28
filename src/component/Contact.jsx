@@ -5,7 +5,9 @@ import { FaGithub } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="w-10/12 sm:w-9/12 lg:w-10/12 mx-auto mt-16">
-      <h2 className="mb-3 text-2xl font-serif font-medium">Contact Me</h2>
+      <h2 className="mb-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-semibold">
+        Contact Me
+      </h2>
       <div className=" grid md:grid-cols-2 gap-10">
         <div className="grid gap-7">
           <div className="border-2 border-[#6751b9] rounded-lg h-[11rem] flex flex-col gap-2 justify-center items-center ">

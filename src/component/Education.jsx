@@ -7,13 +7,13 @@ const Education = () => {
         <h2 className="font-serif text-xl sm:text-2xl md:text-3xl">
           EDUCATION
         </h2>
-        <hr className="my-2 border-[#a993fe] w-3/12" />
-        <p className="font-serif text-xs sm:text-sm">
+        <hr className="my-2 border-[#a993fe] border-[1px]" />
+        <p className="font-serif text-sm sm:text-base">
           Here are some Education Information I've done.
         </p>
       </div>
       <div className="w-11/12 lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 mt-10 xl:mt-16 gap-8">
-        <div className="rounded-md bg-gradient-to-r flex flex-wrap justify-between items-center from-violet-500 to-fuchsia-500 px-4">
+        <div className="rounded-md bg-gradient-to-r flex flex-wrap justify-between items-center from-violet-500 to-fuchsia-500 px-4 py-3">
           <div>
             <h3 className="text-xl font-serif">Diploma in Engineering</h3>
             <h4 className="text-lg font-serif my-2 text-[#beaffa]">

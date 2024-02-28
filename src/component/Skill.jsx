@@ -8,7 +8,7 @@ const Skill = () => {
 
   return (
     <div className="w-10/12 mx-auto ">
-      <h3 className="mb-8 text-lg sm:text-2xl font-serif font-medium">
+      <h3 className="mb-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-semibold">
         Technical Proficiency
       </h3>
       <div className="grid lg:grid-cols-2 gap-16">

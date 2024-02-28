@@ -1,15 +1,17 @@
 import React from "react";
 import Hero from "./Hero";
+import About from "./About";
+import Education from "./Education";
 import Skill from "./Skill";
 import WorkExperience from "./WorkExperience";
-import Contact from "./Contact";
-import Education from "./Education";
 import Project from "./Project";
+import Contact from "./Contact";
 
 const Home = () => {
   return (
     <div className="space-y-14">
       <Hero />
+      <About />
       <Education />
       <Skill />
       <WorkExperience />

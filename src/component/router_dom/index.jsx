@@ -7,11 +7,13 @@ import Error from "../Error";
 import Skill from "../Skill";
 import Education from "../Education";
 import Project from "../Project";
+import About from "../About";
 
 const Routepath = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
       <Route path="/education" element={<Education />} />
       <Route path="/skill" element={<Skill />} />
       <Route path="/work" element={<WorkExperience />} />

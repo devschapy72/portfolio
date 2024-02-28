@@ -24,6 +24,11 @@ const Nav = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/about" className="nav_active">
+            About
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/education" className="nav_active">
             Education
           </NavLink>
@@ -75,6 +80,11 @@ const Nav = () => {
         <li onClick={openbar}>
           <NavLink to="/" className="nav_active">
             Home
+          </NavLink>
+        </li>
+        <li onClick={openbar}>
+          <NavLink to="/about" className="nav_active">
+            About
           </NavLink>
         </li>
         <li onClick={openbar}>

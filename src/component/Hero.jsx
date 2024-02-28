@@ -12,7 +12,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <div className=" bg-gradient-to-r from-[#3b3765] to-[#0c0819] mt-10">
+    <div className=" bg-gradient-to-r from-[#3b3765] to-[#0c0819] mt-5 sm:mt-7 lg:mt-10">
       <div className="w-11/12 sm:w-7/12 lg:w-10/12 mx-auto h-full grid lg:grid-cols-2 content-center lg:content-none items-center gap-8 lg:gap-6">
         <div>
           <p className="text-md font-mono text-center lg:text-start mb-2">
@@ -68,7 +68,7 @@ const Hero = () => {
           {/* DOWNLOAD CV BUTTON */}
           <div className="mt-14 mb-5 text-center lg:text-start">
             <a
-              href="https://drive.google.com/file/d/133KA2VU0ZHObFiRVQOI1OCOE_IKU_A42/view?usp=sharing"
+              href="https://drive.google.com/file/d/1030LxoDuQ-RKrSlQg9oxkHZzQ-LTQNCo/view?usp=sharing"
               className="border-2 border-[#a993fe] px-12 py-3.5 rounded-full text-sm text-[#a993fe] hover:text-white font-serif hover:bg-[#a993fe] duration-300"
             >
               RESUME
