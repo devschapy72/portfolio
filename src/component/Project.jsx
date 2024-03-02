@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Project = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="w-10/12 mx-auto">
+    <div
+      className="w-10/12 mx-auto"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div>
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-semibold">
           My Projects

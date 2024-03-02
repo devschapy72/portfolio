@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="w-10/12 xs:w-8/12 md:w-10/12 lg:w-10/12 mx-auto mb-10">
+    <div
+      className="w-10/12 xs:w-8/12 md:w-10/12 lg:w-10/12 mx-auto mb-10"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <div>
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-extrabold">
           ABOUT
@@ -40,7 +49,7 @@ const About = () => {
           </p>
           <div>
             <a
-              href="https://drive.google.com/uc?export=download&id=1030LxoDuQ-RKrSlQg9oxkHZzQ-LTQNCo"
+              href="https://drive.google.com/uc?export=download&id=1efYq30q-Fitm8AxLX77wIYYCQTT7EA_p"
               className="px-7 sm:px-10 py-3 sm:py-3.5 text-sm sm:text-base bg-gradient-to-r from-violet-500 to-fuchsia-500"
             >
               DOWNLOAD RESUME

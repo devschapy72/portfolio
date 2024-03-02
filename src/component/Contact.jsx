@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="w-10/12 sm:w-9/12 lg:w-10/12 mx-auto mt-16">
+    <div
+      className="w-10/12 sm:w-9/12 lg:w-10/12 mx-auto mt-16"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <h2 className="mb-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-semibold">
         Contact Me
       </h2>

@@ -1,20 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { GrReactjs } from "react-icons/gr";
 import { IoLogoHtml5 } from "react-icons/io";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { FiInstagram } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa6";
-
 import Typewriter from "typewriter-effect";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className=" bg-gradient-to-r from-[#3b3765] to-[#0c0819] mt-5 sm:mt-7 lg:mt-10">
       <div className="w-11/12 sm:w-7/12 lg:w-10/12 mx-auto h-full grid lg:grid-cols-2 content-center lg:content-none items-center gap-8 lg:gap-6">
-        <div>
+        <div data-aos="fade-right" data-aos-duration="2000">
           <p className="text-md font-mono text-center lg:text-start mb-2">
             Hi, I am
           </p>
@@ -55,12 +59,18 @@ const Hero = () => {
               </a>
             </li>
             <li className="w-10 h-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex justify-center items-center">
-              <a href="" className="hover:-translate-y-1 duration-300">
-                <FiInstagram />
+              <a
+                href="https://github.com/devschapy72"
+                className="hover:-translate-y-1 duration-300"
+              >
+                <FiGithub />
               </a>
             </li>
             <li className="w-10 h-10 bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full flex justify-center items-center">
-              <a href="" className="hover:-translate-y-1 duration-300">
+              <a
+                href="https://twitter.com/MdSumon499"
+                className="hover:-translate-y-1 duration-300"
+              >
                 <FaTwitter />
               </a>
             </li>
@@ -68,14 +78,18 @@ const Hero = () => {
           {/* DOWNLOAD CV BUTTON */}
           <div className="mt-14 mb-5 text-center lg:text-start">
             <a
-              href="https://drive.google.com/file/d/1030LxoDuQ-RKrSlQg9oxkHZzQ-LTQNCo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1efYq30q-Fitm8AxLX77wIYYCQTT7EA_p/view?usp=sharing "
               className="border-2 border-[#a993fe] px-12 py-3.5 rounded-full text-sm text-[#a993fe] hover:text-white font-serif hover:bg-[#a993fe] duration-300"
             >
               RESUME
             </a>
           </div>
         </div>
-        <div className="flex flex-col items-center lg:flex-none">
+        <div
+          className="flex flex-col items-center lg:flex-none"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <div className="flex items-end">
             <div className="hidden border-2 border-[#52409a] h-[3.5rem] w-[3.5rem] rounded-lg sm:flex justify-center items-center text-blue-400">
               <span className="text-4xl hover:-translate-y-1 duration-300">

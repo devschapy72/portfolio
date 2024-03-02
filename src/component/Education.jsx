@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Education = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <div className="w-full">
-      <div className="w-11/12 lg:w-10/12 mx-auto">
+      <div
+        className="w-11/12 lg:w-10/12 mx-auto"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <h2 className="font-serif text-xl sm:text-2xl md:text-3xl">
           EDUCATION
         </h2>

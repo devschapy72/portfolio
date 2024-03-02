@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import WorkData from "./work_data/WorkData";
 import WorkDetails from "./work_data/WorkDetails";
+import Aos from "aos";
+import "aos/dist/aos.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -13,8 +15,15 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 
 const WorkExperience = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="w-10/12 mx-auto">
+    <div
+      className="w-10/12 mx-auto"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
       <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-serif font-semibold pl-8 mt-10 mb-2">
         Work Experience
       </h3>
