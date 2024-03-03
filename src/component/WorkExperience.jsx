@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 
 const WorkExperience = () => {
   useEffect(() => {
@@ -31,8 +31,9 @@ const WorkExperience = () => {
         slidesPerView={2}
         spaceBetween={30}
         loop={true}
+        autoplay={{ delay: 2000 }}
         navigation={true}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         className="px-9 hidden lg:block"
       >
         <div>
@@ -51,8 +52,9 @@ const WorkExperience = () => {
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
+        autoplay={{ delay: 2000 }}
         navigation={true}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         className="px-9 lg:hidden"
       >
         <div>
