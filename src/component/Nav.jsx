@@ -53,11 +53,6 @@ const Nav = () => {
             Contact Me
           </NavLink>
         </li>
-        <NavLink to="contact">
-          <button className="bg-[#a993fe] px-4 py-1.5 border-2 border-[#a993fe] hover:bg-transparent  duration-300 outline-none">
-            Hire Me
-          </button>
-        </NavLink>
       </ul>
 
       {/* mobile_open_menu */}
@@ -112,14 +107,6 @@ const Nav = () => {
             Contact Me
           </NavLink>
         </li>
-        <NavLink to="contact">
-          <button
-            className="bg-[#a993fe] px-4 py-1.5 border-2 border-[#a993fe] hover:bg-transparent  duration-300 outline-none"
-            onClick={openbar}
-          >
-            Hire Me
-          </button>
-        </NavLink>
       </ul>
     </nav>
   );
