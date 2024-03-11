@@ -57,7 +57,7 @@ const Contact = () => {
             name="message"
             cols="30"
             rows="10"
-            placeholder="Massage"
+            placeholder="Message"
             className="bg-[#130f2a] resize-none border-2 rounded-md border-[#6751b9] w-full my-3 sm:my-5 pl-4 pt-3 outline-none"
           />
 
