@@ -100,9 +100,8 @@ const Hero = () => {
             {/* HERO_IMAGE */}
             <figure>
               <img
-                src="https://image.lexica.art/full_jpg/6db3e087-ce74-45e5-b025-b0b5832db0b7"
-                alt="photo-image"
-                className="h-[42vh] sm:h-[52vh] lg:h-[62vh] object-cover rounded-full hover:-translate-y-1.5 duration-300"
+                src="https://avatars.githubusercontent.com/u/152070137?v=4"
+                className="h-[30vh] sm:h-[35vh] lg:h-[45vh] object-cover rounded-full hover:-translate-y-1.5 duration-300"
               />
             </figure>
           </div>

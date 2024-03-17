@@ -28,7 +28,7 @@ const About = () => {
         <div className="flex justify-center">
           <figure className="h-60 w-60 rounded-full overflow-hidden">
             <img
-              src="https://image.lexica.art/full_jpg/6db3e087-ce74-45e5-b025-b0b5832db0b7"
+              src="https://avatars.githubusercontent.com/u/152070137?v=4"
               alt="image"
               className="flex"
             />
