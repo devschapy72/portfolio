@@ -21,8 +21,8 @@ const About = () => {
       <p className="text-xs sm:text-sm md:text-lg font-light mb-10">
         Hello! I'm Sumon Ahmed. Experienced with all stages of the development
         cycle for dynamic web projects. Having an in-depth knowledge including
-        advanced HTML, CSS, TailwindCSS, JavaScript, Dom Manipulation, ReactJS,
-        ES6, JSON, Responsive Design, react-router-dom, Git & GitHub.
+        advanced HTML, CSS, TailwindCSS, JavaScript, Dom Manipulation, React.jS,
+        Next.js, JSON, Responsive Design, react-router-dom, Git & GitHub.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         <div className="flex justify-center">
@@ -49,7 +49,7 @@ const About = () => {
           </p>
           <div>
             <a
-              href="https://drive.google.com/uc?export=download&id=18VG5REdFDLRah7zdwCdKABkvbu9cU4V5"
+              href="https://drive.google.com/uc?export=download&1i9YRNZ6_1X_Qdl5NFqtscu5DkDlEa7LI"
               className="px-7 sm:px-10 py-3 sm:py-3.5 text-sm sm:text-base bg-gradient-to-r from-violet-500 to-fuchsia-500"
             >
               DOWNLOAD RESUME

@@ -24,33 +24,7 @@ const Project = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-        {/* IMAGE_1 */}
-
-        <div className="bg-[#463c71] rounded-lg overflow-hidden shadow-lg">
-          <div className="relative">
-            <figure>
-              <img
-                src="https://img.freepik.com/free-photo/full-length-two-joyful-girls-sweaters-running-together-with-packages-looking-away-white-wall_171337-2680.jpg?size=626&ext=jpg&ga=GA1.1.1987737718.1707836024&semt=ais"
-                alt="projectImage"
-                className="h-[10rem] w-full object-cover"
-              />
-            </figure>
-            <h2 className="absolute top-0 left-0 w-full h-full text-white font-mono text-xl flex justify-center items-center opacity-0 hover:opacity-100 hover:bg-[#000000bd] duration-300">
-              BD Shop
-            </h2>
-          </div>
-          <p className="text-center my-3 font-serif text-sm">BD Shop</p>
-          <div className="flex justify-center">
-            <a
-              href="https://sumonbdshop.netlify.app"
-              className=" border-2 border-[#a993fe] hover:bg-[#a993fe] duration-300 py-3 px-16 mb-3"
-            >
-              View Project
-            </a>
-          </div>
-        </div>
-
-        {/* IMAGE_2 */}
+        {/*  Watch Project */}
         <div className="bg-[#463c71] rounded-lg overflow-hidden shadow-lg">
           <div className="relative">
             <figure>
@@ -75,7 +49,7 @@ const Project = () => {
           </div>
         </div>
 
-        {/* IMAGE_3 */}
+        {/*  Sumon Store Project */}
         <div className="bg-[#463c71] rounded-lg overflow-hidden shadow-lg">
           <div className="relative">
             <figure>
@@ -93,6 +67,31 @@ const Project = () => {
           <div className="flex justify-center">
             <a
               href="https://sumoneocmproject.netlify.app"
+              className=" border-2 border-[#a993fe] hover:bg-[#a993fe] duration-300 py-3 px-16 mb-3"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+
+        {/* BD Shop Project */}
+        <div className="bg-[#463c71] rounded-lg overflow-hidden shadow-lg">
+          <div className="relative">
+            <figure>
+              <img
+                src="https://img.freepik.com/free-photo/full-length-two-joyful-girls-sweaters-running-together-with-packages-looking-away-white-wall_171337-2680.jpg?size=626&ext=jpg&ga=GA1.1.1987737718.1707836024&semt=ais"
+                alt="projectImage"
+                className="h-[10rem] w-full object-cover"
+              />
+            </figure>
+            <h2 className="absolute top-0 left-0 w-full h-full text-white font-mono text-xl flex justify-center items-center opacity-0 hover:opacity-100 hover:bg-[#000000bd] duration-300">
+              BD Shop
+            </h2>
+          </div>
+          <p className="text-center my-3 font-serif text-sm">BD Shop</p>
+          <div className="flex justify-center">
+            <a
+              href="https://sumonbdshop.netlify.app"
               className=" border-2 border-[#a993fe] hover:bg-[#a993fe] duration-300 py-3 px-16 mb-3"
             >
               View Project
