@@ -49,7 +49,7 @@ const About = () => {
           </p>
           <div>
             <a
-              href="https://drive.google.com/uc?export=download&1i9YRNZ6_1X_Qdl5NFqtscu5DkDlEa7LI"
+              href="https://drive.google.com/uc?export=download&id=1Qy-IpsK1BAiVuKVaBOFNb2gCbiAOegQc"
               className="px-7 sm:px-10 py-3 sm:py-3.5 text-sm sm:text-base bg-gradient-to-r from-violet-500 to-fuchsia-500"
             >
               DOWNLOAD RESUME

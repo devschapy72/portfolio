@@ -78,7 +78,7 @@ const Hero = () => {
           {/* DOWNLOAD CV BUTTON */}
           <div className="mt-14 mb-5 text-center lg:text-start">
             <a
-              href="https://drive.google.com/file/d/1i9YRNZ6_1X_Qdl5NFqtscu5DkDlEa7LI/view?usp=sharing"
+              href=" https://drive.google.com/file/d/1Qy-IpsK1BAiVuKVaBOFNb2gCbiAOegQc/view?usp=sharing"
               className="border-2 border-[#a993fe] px-12 py-3.5 rounded-full text-sm text-[#a993fe] hover:text-white font-serif hover:bg-[#a993fe] duration-300"
             >
               RESUME
